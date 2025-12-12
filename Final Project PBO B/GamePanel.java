@@ -55,7 +55,7 @@ public class GamePanel extends JPanel implements ActionListener {
         this.addKeyListener(new MyKeyAdapter());
         this.random = new Random();
         try {
-            backgroundImage = ImageIO.read(new File("McFP6t0y.jpg"));
+            backgroundImage = ImageIO.read(new File("background.jpg"));
         } catch (IOException e) {
             System.out.println("Foto tidak ditemukan.");
         }
